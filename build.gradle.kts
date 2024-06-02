@@ -19,5 +19,5 @@ dependencies {
 
 @OptIn(ExperimentalKotlinGradlePluginApi::class)
 powerAssert {
-  functions = listOf("kotlin.assert", "io.kotest.powerassert.shouldBe", "io.kotest.powerassert.eq")
+  functions = listOf("io.kotest.powerassert.shouldBe")
 }
